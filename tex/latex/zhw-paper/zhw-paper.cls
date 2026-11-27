@@ -23,8 +23,6 @@
 \newif\ifutopia
 \newif\ifcochineal
 \newif\ifdfbf
-\newif\ifcoursepaper
-\DeclareOption{coursepaper}{\coursepapertrue}
 \DeclareOption{utopia}{\utopiatrue}
 \DeclareOption{bembo}{\bembotrue}
 \DeclareOption{garamond}{\garamondtrue}
@@ -98,5 +96,6 @@
 \else
 \titleformat{\subsection}[runin]{\bfseries\normalsize}{}{0pt}{}[.]
 \fi
+
 
 \RequirePackage{hyperref}
